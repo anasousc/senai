@@ -1,0 +1,36 @@
+body { width: 800px;
+    background-image: url("../img/imagem.jpg") ;
+} 
+h1{ color:rgb(10, 59, 105);
+    text-shadow: 2px 2px 2px;
+}
+h2{
+    color:rgba(0, 154, 243, 0.856);
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    color: rgb(227, 249, 255);
+}
+li{color: rgb(220, 228, 235);
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top: 10px;
+    left: 1400px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(97, 97, 243);
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+nav#menu li:hover{
+    background-color: rgb(89, 166, 238);
+}
